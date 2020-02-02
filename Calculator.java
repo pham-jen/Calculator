@@ -12,9 +12,8 @@ public class Calculator extends JFrame implements ActionListener
 	// Creates each button to be displayed
 	private JButton numberButtons[] = new JButton[10];
 	private String captions[] = {"1","2","3",
-									"4","5","6",
-									"7","8","9",
-									"0"};
+				     "4","5","6",
+				     "7","8","9","0"};
 	private JButton addButton = new JButton("+");
 	private JButton subButton = new JButton("-");
 	private JButton divButton = new JButton("/");
